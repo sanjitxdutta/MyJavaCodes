@@ -1,0 +1,10 @@
+frame.setLayout(new java.awt.FlowLayout());
+        frame.setSize(300, 200);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.add(cseLabel);
+        frame.add(cseCount);
+        frame.add(csbsLabel);
+        frame.add(csbsCount);
+        frame.add(submitButton);
+        frame.add(resultLabel);
+        frame.setVisible(true);
